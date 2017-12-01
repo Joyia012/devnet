@@ -14,7 +14,7 @@ RUN	echo | npm run genesis
 
 RUN	echo | npm run blackbytes
 
-RUN	echo | npm run asset
+RUN	echo | npm run dagcoin
 
 EXPOSE	6611 6612 8080
 
