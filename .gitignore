@@ -1,0 +1,32 @@
+hub/etc
+witness/etc
+.idea/*
+
+# Dependency directory
+# Commenting this out is preferred by some people, see
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+bower_components
+# Users Environment Variables
+.lock-wscript
+
+# OSX
+
+.DS_Store
+.AppleDouble
+.LSOverride
+# VIM ignore
+
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

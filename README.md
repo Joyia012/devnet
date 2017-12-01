@@ -1,2 +1,2 @@
 # dagcoin-devnet
-Dagcoin/Byteball network from scratch for development purposes
+Dagcoin network from scratch for development purposes
