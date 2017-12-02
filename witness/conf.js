@@ -13,7 +13,7 @@ exports.bLight = false;
 exports.bSingleAddress = true;
 exports.THRESHOLD_DISTANCE = 1;
 exports.MIN_AVAILABLE_WITNESSINGS = 100;
-exports.TIMESTAMPING_INTERVAL = 60 * 1000; // in milliseconds
+exports.TIMESTAMPING_INTERVAL = 5 * 1000; // in milliseconds
 
 exports.admin_email='witness';
 exports.from_email='witness';
