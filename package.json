@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "devnet-hub": "file:hub",
-    "devnet-witness": "file:witness"
+    "devnet-witness": "file:witness",
+    "devnet-discovery-server": "file:discovery-server"
   },
   "devDependencies": {},
   "scripts": {
@@ -14,6 +15,7 @@
     "blackbytes": "npm --prefix witness run blackbytes",
     "witness": "npm --prefix witness start",
     "hub": "npm --prefix hub start",
+    "discovery": "npm --prefix discovery-server start",
     "dagcoin": "npm --prefix witness run dagcoin",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
