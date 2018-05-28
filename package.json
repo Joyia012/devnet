@@ -11,10 +11,8 @@
   "scripts": {
     "init": "bin/init.sh",
     "genesis": "npm --prefix witness run genesis",
-    "blackbytes": "npm --prefix witness run blackbytes",
     "witness": "npm --prefix witness start",
     "hub": "npm --prefix hub start",
-    "dagcoin": "npm --prefix witness run dagcoin",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

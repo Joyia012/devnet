@@ -12,10 +12,6 @@ RUN	npm run init
 
 RUN	echo | npm run genesis
 
-RUN	echo | npm run blackbytes
-
-RUN	echo | npm run dagcoin
-
 EXPOSE	6611 6612 8080 7000
 
 VOLUME  /root
