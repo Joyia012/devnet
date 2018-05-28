@@ -20,4 +20,4 @@ EXPOSE	6611 6612 8080 7000
 
 VOLUME  /root
 
-CMD	[ "/bin/sh", "-c", "npm run hub > /dev/null & echo | npm run witness | npm run discovery" ]
+CMD	[ "/bin/sh", "-c", "npm run hub > /dev/null & echo | npm run witness" ]
