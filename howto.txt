@@ -1,0 +1,9 @@
+1. Run "npm install"
+2. Change node_modules/core/conf.js: change port and wss to ws
+3. Change node_modules/core/constants.js with values from config/constants.js
+3. Run "npm run genesis"
+4. Copy genesis hash from the output and change node_modules/core/constants.js exports.GENESIS_UNIT
+5. Run "npm run witness"
+6. Copy conf.js to node_modules/hub/
+6. Run "npm run hub"
+7. In order to run client change client conf to use localhost hub and ws instead of wss plus modify constants.js in client node_modules/core accordingly
