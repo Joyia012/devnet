@@ -1,7 +1,7 @@
 {
   "name": "devnet-witness",
   "version": "1.0.0",
-  "description": "Custom byteball DAG",
+  "description": "Custom DAG",
   "main": "server.js",
   "scripts": {
     "init": "bin/init.sh",
@@ -12,8 +12,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "headless-byteball": "git+https://github.com/byteball/headless-byteball.git",
-    "byteball-witness": "git+https://github.com/byteball/byteball-witness.git",
-    "byteball-explorer": "git+https://github.com/byteball/byteball-explorer.git"
+    "headless-wallet": "git+https://github.com/dagcoin/headless-wallet.git",
+    "witness": "git+https://github.com/dagcoin/witness.git",
+    "explorer": "git+https://github.com/dagcoin/explorer.git"
   }
 }

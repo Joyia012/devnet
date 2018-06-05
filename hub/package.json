@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "byteball-hub": "git+https://github.com/byteball/byteball-hub.git"
+    "hub": "git+https://github.com/dagcoin/hub.git"
   }
 }
