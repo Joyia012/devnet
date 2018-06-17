@@ -12,8 +12,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "headless-wallet": "git+https://github.com/dagcoin/headless-wallet.git",
-    "witness": "git+https://github.com/dagcoin/witness.git",
-    "explorer": "git+https://github.com/dagcoin/explorer.git"
+    "headless-wallet": "git+https://github.com/m42cx/headless-wallet.git",
+    "witness": "git+https://github.com/m42cx/witness.git",
+    "explorer": "git+https://github.com/m42cx/explorer.git"
   }
 }
