@@ -9,6 +9,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "hub": "git+https://github.com/dagcoin/hub.git"
+    "hub": "git+https://github.com/m42cx/hub.git"
   }
 }
